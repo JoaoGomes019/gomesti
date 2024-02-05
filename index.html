@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="GomesTI_Logo.png" alt="logo" class="logo">
+        </div>
+
+        <div class="login">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="seuemail@example.com"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="suasenha123"><br>      
+            <button onclick="verificarUsuario()">Enviar</button>
+        </div>
+    </div>
+
+    <div id="mensagem"></div>
+    
+    <div id="loader" class="loader"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
